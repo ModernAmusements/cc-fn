@@ -21,7 +21,7 @@ definePageMeta({
       :description="page.hero.description"
       :buttons="page.hero.buttons"
     ></Hero>
-    <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
+    <!-- <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
     <Features
       :title="page.features.title"
       :description="page.features.description"
@@ -32,6 +32,6 @@ definePageMeta({
       :title="page.cta.title"
       :description="page.cta.description"
       :buttons="page.cta.buttons"
-    ></Cta>
+    ></Cta> -->
   </Container>
 </template>

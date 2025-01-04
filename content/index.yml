@@ -1,9 +1,9 @@
 hero:
-  title: Build Blazing-Fast Websites with Nuxt.js & Netlify
-  description: Craft high-performing, SEO-friendly web experiences with the dynamic power of Nuxt.js and the speed of Netlify’s global edge network.
+  title: Creation Equals Power
+  description: People speak sometimes about the "bestial" cruelty of man, but that is terribly unjust and offensive to beasts, no animal could ever be so cruel as a man, so artfully, so artistically cruel
   buttons:
     - label: Get Started Today
-      url: https://www.netlify.com/
+      url: 
 logos:
   title: Trusted by the world's best
   icons:

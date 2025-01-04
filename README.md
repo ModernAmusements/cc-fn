@@ -1,8 +1,8 @@
-# Nuxt Starter
+# CC-FN
 
 ![Netlify + Nuxt](https://user-images.githubusercontent.com/43764894/223556133-b99e4822-1da3-4f94-941e-fa95cfb42562.png)
 
-Nuxt Starter is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.
+CC-FN is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.
 
 **View demo:** [https://demo-nuxt-starter.netlify.app/](https://demo-nuxt-starter.netlify.app/)
 
