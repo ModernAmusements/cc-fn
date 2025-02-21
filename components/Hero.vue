@@ -24,18 +24,18 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col gap-12 mt-10 mb-20">
-    <!-- <div class="flex-1 w-full">
+  <div class="flex flex-col md:flex-row items-center gap-12 mt-10 mb-20">
+    <div class="flex-1 w-full">
       <img
         class="rounded-lg"
-        src="~/assets/img/hero.jpg"
+        src="~/assets/img/hero.png"
         alt="Nuxt image"
         loading="eager"
         format="avif"
         width="1000"
         height="1000"
       />
-    </div> -->
+    </div>
     <div class="flex-1 w-full">
       <h1 class="text-4xl font-bold sm:text-5xl text-balance" v-if="title">{{ title }}</h1>
       <p class="max-w-xl mt-4 text-lg text-zinc-600 sm:text-xl" v-if="description">
@@ -49,3 +49,4 @@ const props = defineProps({
     </div>
   </div>
 </template>
+

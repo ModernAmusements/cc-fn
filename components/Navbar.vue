@@ -16,7 +16,7 @@ const menuitems = [
     <header class="flex flex-row flex-wrap items-center justify-between my-4 gap-x-6 gap-y-4">
       <div class="flex items-center justify-between">
         <a href="/" class="text-2xl"
-          ><span class="font-bold text-zinc-800"><span class="text-green-500"></span> CC-FN</span>
+          ><span class="font-bold text-zinc-800"><span class="text-green-500"></span>MA</span>
         </a>
       </div>
       <!-- <nav class="flex w-auto">
