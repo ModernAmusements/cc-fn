@@ -2,6 +2,7 @@
 const { data: page } = await useAsyncData("index", () =>
   queryContent("/").findOne()
 );
+
 if (!page.value) {
   throw createError({
     statusCode: 404,
@@ -9,9 +10,13 @@ if (!page.value) {
     fatal: true,
   });
 }
+
 definePageMeta({
   layout: "default",
 });
+
+// Import the Music Player Component
+import MusicPlayer from "~/components/MusicPlayer.vue";
 </script>
 
 <template>
@@ -21,6 +26,13 @@ definePageMeta({
       :description="page.hero.description"
       :buttons="page.hero.buttons"
     ></Hero>
+
+    <!-- 🎵 Add Music Player Below Hero Section -->
+
+      <MusicPlayer />
+
+
+    <!-- Optional: Uncomment other sections if needed -->
     <!-- <Logos :title="page.logos.title" :icons="page.logos.icons"></Logos>
     <Features
       :title="page.features.title"

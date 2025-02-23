@@ -1,0 +1,14 @@
+[
+  {
+    "title": "MA ULTRA",
+    "src": "/music/track1.mp3"
+  },
+  {
+    "title": "Track 2",
+    "src": "/music/track2.mp3"
+  },
+  {
+    "title": "Track 3",
+    "src": "/music/track3.mp3"
+  }
+]
