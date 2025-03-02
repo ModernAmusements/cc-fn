@@ -17,6 +17,8 @@ definePageMeta({
 
 // Import the Music Player Component
 import MusicPlayer from "~/components/MusicPlayer.vue";
+import AlbumScroll from "~/components/AlbumScroll.vue";
+
 </script>
 
 <template>
@@ -28,7 +30,7 @@ import MusicPlayer from "~/components/MusicPlayer.vue";
     ></Hero>
 
     <!-- 🎵 Add Music Player Below Hero Section -->
-
+    <AlbumScroll />
       <MusicPlayer />
 
 
